@@ -1,0 +1,8 @@
+{ "name" : "redis-session-store",
+  "description" : "Plugin for connect app, that store sessions in Redis.",
+  "version" : "0.0.2",
+  "directories" : { "lib" : "./lib" },
+  "main" : "main.js",
+  "author" : "Temnov Kirill <allselead@gmail.com>",
+  "repository" : { "type":"git", "url":"http://github.com/selead/redis-session-store.git" }
+}
