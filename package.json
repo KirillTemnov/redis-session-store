@@ -1,8 +1,10 @@
 { "name" : "redis-session-store",
   "description" : "Plugin for connect app, that store sessions in Redis.",
-  "version" : "0.0.2",
-  "directories" : { "lib" : "./lib" },
-  "main" : "main.js",
+  "version" : "0.0.3",
+  "main" : "lib/redis-session-store.js",
+  "engines": ["node >= 0.3.1"],
   "author" : "Temnov Kirill <allselead@gmail.com>",
+  "dependencies": { 'connect': '>= 0.5.6',
+                    'redis-client': '*' },
   "repository" : { "type":"git", "url":"http://github.com/selead/redis-session-store.git" }
 }
