@@ -3,6 +3,7 @@ Redis-based session store.
 Plugin for connect apps.
 
 Usage:
+``
 var connect = require('connect'),
     RedisSessionStore = require('redis-session-store');
 
@@ -16,7 +17,7 @@ var server = connect.createServer(
 );
 
 server.listen(8080);
-
+``
 
 You can use `prefix` in constructor options to specify prefix for session keys.
 Default value is 'redis-store-'.
