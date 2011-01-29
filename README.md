@@ -17,4 +17,8 @@ var server = connect.createServer(
 
 server.listen(8080);
 
-Version 0.0.1
+
+You can use `prefix` in constructor options to specify prefix for session keys.
+Default value is 'redis-store-'.
+
+Version 0.0.3
